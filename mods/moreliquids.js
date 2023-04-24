@@ -1,8 +1,9 @@
 elements.negatron = {
     color: "#555555",
-    behavior: behaviors.ENERGY,
-    category: "energy",
-    state: "energy",
+    behavior: behaviors.LIQUID,
+    category: "liquid",
+    viscosity: 74000,
+    state: "liquid",
     density: 720
 };
 	
