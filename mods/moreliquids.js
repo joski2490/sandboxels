@@ -1,3 +1,11 @@
+elements.negatron = {
+    color: "#555555",
+    behavior: behaviors.ENERGY,
+    category: "energy",
+    state: "energy",
+    density: 720
+};
+	
 elements.soup = {
     color: "#AC4A2E",
     behavior: behaviors.LIQUID,
@@ -118,6 +126,7 @@ elements.liquid_paste = {
     state: "liquid",
     density: 230
 };
+elements.neutron.reactions.negatron = { "elem1":"fire", "elem2":"bomb" };
 elements.water.reactions.soup = { "elem1":"wet_soup", "elem2":"salt_water" };
 elements.tar.reactions.magma = { "elem1":"smoke", "elem2":"cinder" };
 elements.poop.reactions.water = { "elem1":"dried_poop", "elem2":"fly" };
